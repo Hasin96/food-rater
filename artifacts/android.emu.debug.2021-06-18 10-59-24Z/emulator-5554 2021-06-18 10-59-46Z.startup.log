@@ -1,0 +1,223 @@
+--------- beginning of main
+06-18 11:59:27.046  6868  6868 I .awesomeprojec: Not late-enabling -Xcheck:jni (already on)
+06-18 11:59:27.053  6868  6868 W .awesomeprojec: Unexpected CPU variant for X86 using defaults: x86_64
+--------- beginning of system
+06-18 11:59:27.073  6868  6868 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.awesomeproject]: x86_64, null instrumentation[com.awesomeproject.test]: null, null
+06-18 11:59:27.075  6868  6868 I .awesomeprojec: The ClassLoaderContext is a special shared library.
+06-18 11:59:27.141  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 2 lines
+06-18 11:59:27.141  6868  6868 I .awesomeprojec: The ClassLoaderContext is a special shared library.
+06-18 11:59:27.202  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:27.595  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 11 lines
+06-18 11:59:27.597  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:27.667  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:28.599  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:28.600  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:28.660  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:29.631  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 32 lines
+06-18 11:59:29.632  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:29.692  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:30.603  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:30.605  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:30.666  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:31.601  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:31.602  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:31.668  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:32.588  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:32.589  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:32.649  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:33.632  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 32 lines
+06-18 11:59:33.633  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:33.697  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:34.609  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:34.609  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:34.669  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:35.595  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:35.595  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:35.655  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:36.589  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:36.589  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:36.648  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:36.649  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:36.710  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:37.621  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:37.621  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:37.682  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:38.238  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 19 lines
+06-18 11:59:38.299  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:38.302  6868  6868 I .awesomeprojec: Rejecting re-init on previously-failed class java.lang.Class<com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Class java.lang.Class.classForName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:-2)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Class java.lang.Class.forName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:453)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.createPackageInfo(java.lang.String) (ClassPathPackageInfoSource.java:93)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.access$000(android.test.ClassPathPackageInfoSource, java.lang.String) (ClassPathPackageInfoSource.java:37)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource$1.load(java.lang.String) (ClassPathPackageInfoSource.java:50)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Object android.test.ClassPathPackageInfoSource$1.load(java.lang.Object) (ClassPathPackageInfoSource.java:47)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Object android.test.SimpleCache.get(java.lang.Object) (SimpleCache.java:32)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages() (ClassPathPackageInfoSource.java:230)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(java.util.Set) (ClassPathPackageInfoSource.java:243)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive() (ClassPathPackageInfoSource.java:237)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(android.test.ClassPathPackageInfoSource$ClassPathPackageInfo) (ClassPathPackageInfoSource.java:214)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.util.Set android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(java.lang.String) (ClassPathPackageInfoSource.java:77)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.util.List android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(java.lang.String) (TestGrouping.java:134)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.test.suitebuilder.TestGrouping.addPackagesRecursive(java.lang.String[]) (TestGrouping.java:110)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at android.test.suitebuilder.TestSuiteBuilder android.test.suitebuilder.TestSuiteBuilder.includePackages(java.lang.String[]) (TestSuiteBuilder.java:102)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.test.InstrumentationTestRunner.onCreate(android.os.Bundle) (InstrumentationTestRunner.java:377)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.app.ActivityThread.handleBindApplication(android.app.ActivityThread$AppBindData) (ActivityThread.java:5863)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.app.ActivityThread.access$1100(android.app.ActivityThread, android.app.ActivityThread$AppBindData) (ActivityThread.java:199)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1650)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.os.Looper.loop() (Looper.java:193)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6669)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:493)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:858)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/base.apk", zip file "/data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/lib/x86_64, /data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/lib/x86_64, /data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/base.apk!/lib/x86_64, /data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/base.apk!/lib/x86_64, /system/lib64]]
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:134)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Class java.lang.Class.classForName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:-2)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Class java.lang.Class.forName(java.lang.String, boolean, java.lang.ClassLoader) (Class.java:453)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.createPackageInfo(java.lang.String) (ClassPathPackageInfoSource.java:93)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource.access$000(android.test.ClassPathPackageInfoSource, java.lang.String) (ClassPathPackageInfoSource.java:37)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo android.test.ClassPathPackageInfoSource$1.load(java.lang.String) (ClassPathPackageInfoSource.java:50)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Object android.test.ClassPathPackageInfoSource$1.load(java.lang.Object) (ClassPathPackageInfoSource.java:47)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.lang.Object android.test.SimpleCache.get(java.lang.Object) (SimpleCache.java:32)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages() (ClassPathPackageInfoSource.java:230)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(java.util.Set) (ClassPathPackageInfoSource.java:243)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive() (ClassPathPackageInfoSource.java:237)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.util.Set android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(android.test.ClassPathPackageInfoSource$ClassPathPackageInfo) (ClassPathPackageInfoSource.java:214)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.util.Set android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(java.lang.String) (ClassPathPackageInfoSource.java:77)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at java.util.List android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(java.lang.String) (TestGrouping.java:134)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.test.suitebuilder.TestGrouping.addPackagesRecursive(java.lang.String[]) (TestGrouping.java:110)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at android.test.suitebuilder.TestSuiteBuilder android.test.suitebuilder.TestSuiteBuilder.includePackages(java.lang.String[]) (TestSuiteBuilder.java:102)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.test.InstrumentationTestRunner.onCreate(android.os.Bundle) (InstrumentationTestRunner.java:377)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.app.ActivityThread.handleBindApplication(android.app.ActivityThread$AppBindData) (ActivityThread.java:5863)
+06-18 11:59:38.302  6868  6868 I .awesomeprojec:   at void android.app.ActivityThread.access$1100(android.app.ActivityThread, android.app.ActivityThread$AppBindData) (ActivityThread.java:199)
+06-18 11:59:38.303  6868  6868 I .awesomeprojec:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1650)
+06-18 11:59:38.303  6868  6868 I .awesomeprojec:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+06-18 11:59:38.303  6868  6868 I .awesomeprojec:   at void android.os.Looper.loop() (Looper.java:193)
+06-18 11:59:38.303  6868  6868 I .awesomeprojec:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6669)
+06-18 11:59:38.303  6868  6868 I .awesomeprojec:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+06-18 11:59:38.303  6868  6868 I .awesomeprojec:   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:493)
+06-18 11:59:38.303  6868  6868 I .awesomeprojec:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:858)
+06-18 11:59:38.303  6868  6868 I .awesomeprojec: 
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: Cannot load class. Make sure it is in your apk. Class name: 'com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin'. Message: com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.Class.classForName(Native Method)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.Class.forName(Class.java:453)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:93)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:37)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.SimpleCache.get(SimpleCache.java:32)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages(ClassPathPackageInfoSource.java:230)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfoSource.java:243)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:237)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(ClassPathPackageInfoSource.java:214)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:77)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:134)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:110)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:377)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5863)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.access$1100(ActivityThread.java:199)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1650)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.os.Looper.loop(Looper.java:193)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.reflect.Method.invoke(Native Method)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:738)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:363)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	... 25 more
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	... 25 more
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/base.apk", zip file "/data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/lib/x86_64, /data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/lib/x86_64, /data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/base.apk!/lib/x86_64, /data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/base.apk!/lib/x86_64, /system/lib64]]
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+06-18 11:59:38.305  6868  6868 W ClassPathPackageInfoSource: 	... 25 more
+06-18 11:59:38.305  6868  6868 I .awesomeprojec: Rejecting re-init on previously-failed class java.lang.Class<com.facebook.imagepipeline.stetho.BaseFrescoStethoPlugin>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+06-18 11:59:38.305  6868  6868 I .awesomeprojec: (Throwable with no stack trace)
+06-18 11:59:38.305  6868  6868 I .awesomeprojec: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/base.apk", zip file "/data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/lib/x86_64, /data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/lib/x86_64, /data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/base.apk!/lib/x86_64, /data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/base.apk!/lib/x86_64, /system/lib64]]
+06-18 11:59:38.305  6868  6868 I .awesomeprojec: (Throwable with no stack trace)
+06-18 11:59:38.305  6868  6868 I .awesomeprojec: 
+06-18 11:59:38.305  6868  6868 I .awesomeprojec: Rejecting re-init on previously-failed class java.lang.Class<com.facebook.imagepipeline.stetho.FrescoStethoPlugin>: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+06-18 11:59:38.305  6868  6868 I .awesomeprojec: (Throwable with no stack trace)
+06-18 11:59:38.305  6868  6868 I .awesomeprojec: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/base.apk", zip file "/data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/lib/x86_64, /data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/lib/x86_64, /data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/base.apk!/lib/x86_64, /data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/base.apk!/lib/x86_64, /system/lib64]]
+06-18 11:59:38.305  6868  6868 I .awesomeprojec: (Throwable with no stack trace)
+06-18 11:59:38.305  6868  6868 I .awesomeprojec: 
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: Cannot load class. Make sure it is in your apk. Class name: 'com.facebook.imagepipeline.stetho.FrescoStethoPlugin'. Message: com.facebook.imagepipeline.stetho.FrescoStethoPlugin
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.FrescoStethoPlugin
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.Class.classForName(Native Method)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.Class.forName(Class.java:453)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:93)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:37)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.SimpleCache.get(SimpleCache.java:32)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getSubpackages(ClassPathPackageInfoSource.java:230)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfoSource.java:243)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:237)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource$ClassPathPackageInfo.access$100(ClassPathPackageInfoSource.java:214)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.ClassPathPackageInfoSource.getTopLevelClassesRecursive(ClassPathPackageInfoSource.java:77)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:134)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:110)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:377)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5863)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.access$1100(ActivityThread.java:199)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1650)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.os.Looper.loop(Looper.java:193)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.reflect.Method.invoke(Native Method)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: com.facebook.imagepipeline.stetho.FrescoStethoPlugin
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:738)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:363)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	... 25 more
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/facebook/stetho/dumpapp/DumperPlugin;
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	... 25 more
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.facebook.stetho.dumpapp.DumperPlugin" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/base.apk", zip file "/data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/lib/x86_64, /data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/lib/x86_64, /data/app/com.awesomeproject.test-VGGp4lL2-UDwNjnK4xVqSw==/base.apk!/lib/x86_64, /data/app/com.awesomeproject-XZ6ClH_dQrv2EVIx6g02XQ==/base.apk!/lib/x86_64, /system/lib64]]
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+06-18 11:59:38.311  6868  6868 W ClassPathPackageInfoSource: 	... 25 more
+06-18 11:59:38.312  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:38.621  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 9 lines
+06-18 11:59:38.621  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:38.680  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:39.592  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:39.592  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:39.656  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:40.617  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 32 lines
+06-18 11:59:40.617  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:40.683  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:41.597  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:41.598  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:41.657  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:42.638  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 32 lines
+06-18 11:59:42.638  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:42.698  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:43.616  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:43.617  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:43.677  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:43.805  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 4 lines
+06-18 11:59:43.805  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:43.866  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:44.630  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 24 lines
+06-18 11:59:44.630  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:44.691  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:45.616  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 30 lines
+06-18 11:59:45.617  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:45.680  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:45.802  6868  6868 I chatty  : uid=10089(com.awesomeproject) identical 5 lines
+06-18 11:59:45.861  6868  6868 W .awesomeprojec: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+06-18 11:59:45.881  6868  6868 W TestGrouping: Invalid Package: '' could not be found or has no tests

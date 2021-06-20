@@ -1,0 +1,236 @@
+detox[12260] TRACE: [DETOX_CREATE] created a Detox instance with config:
+{"artifactsConfig":{"rootDir":"artifacts\\android.emu.debug.2021-06-18 10-59-24Z","plugins":{"log":{"enabled":true,"keepOnlyFailedTestsArtifacts":false},"screenshot":{"enabled":true,"shouldTakeAutomaticSnapshots":false,"keepOnlyFailedTestsArtifacts":false},"video":{"enabled":false,"keepOnlyFailedTestsArtifacts":false},"instruments":{"enabled":false,"keepOnlyFailedTestsArtifacts":false},"timeline":{"enabled":false},"uiHierarchy":{"enabled":false,"keepOnlyFailedTestsArtifacts":false}},"pathBuilder":{"_rootDir":"artifacts\\android.emu.debug.2021-06-18 10-59-24Z"}},"appsConfig":{"default":{"type":"android.apk","binaryPath":"android/app/build/outputs/apk/debug/app-debug.apk","build":"cd android && gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug && cd .."}},"behaviorConfig":{"init":{"reinstallApp":true,"exposeGlobals":true},"cleanup":{"shutdownDevice":false},"launchApp":"auto"},"cliConfig":{"recordLogs":"all","configuration":"android.emu.debug","forceAdbInstall":"false","useCustomLogger":"true"},"deviceConfig":{"type":"android.emulator","device":{"avdName":"Pixel_4_XL_API_28"}},"runnerConfig":{"testRunner":"jest","runnerConfig":"e2e/config.json","specs":"e2e"},"sessionConfig":{"autoStart":true,"server":"ws://localhost:60034","sessionId":"4e9f7f86-7321-855f-668d-6855db0b07bd","debugSynchronization":10000},"errorComposer":{"configurationName":"android.emu.debug","filepath":"C:\\Users\\Hasin\\source\\repos\\reactNative\\AwesomeProject\\.detoxrc.json","contents":{"testRunner":"jest","runnerConfig":"e2e/config.json","devices":{"emulator":{"type":"android.emulator","device":{"avdName":"Pixel_4_XL_API_28"}}},"apps":{"android.debug":{"type":"android.apk","binaryPath":"android/app/build/outputs/apk/debug/app-debug.apk","build":"cd android && gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug && cd .."}},"configurations":{"android.emu.debug":{"device":"emulator","app":"android.debug"}}},"_extends":false}}
+detox[12260] DEBUG: [WSS_CREATE] Detox server listening on localhost:60034...
+detox[12260] DEBUG: [WSS_CONNECTION, #60035] registered a new connection.
+detox[12260] TRACE: [WS_OPEN] opened web socket to: ws://localhost:60034
+detox[12260] TRACE: [WS_SEND] {"type":"login","params":{"sessionId":"4e9f7f86-7321-855f-668d-6855db0b07bd","role":"tester"},"messageId":0}
+detox[12260] TRACE: [WSS_GET_FROM, #60035] {"type":"login","params":{"sessionId":"4e9f7f86-7321-855f-668d-6855db0b07bd","role":"tester"},"messageId":0}
+detox[12260] TRACE: [SESSION_CREATED] created session 4e9f7f86-7321-855f-668d-6855db0b07bd
+detox[12260] TRACE: [WSS_SEND_TO, #tester] {"type":"loginSuccess","params":{"testerConnected":true,"appConnected":false},"messageId":0}
+detox[12260] TRACE: [SESSION_JOINED] tester joined session 4e9f7f86-7321-855f-668d-6855db0b07bd
+detox[12260] TRACE: [WS_MESSAGE] {"type":"loginSuccess","params":{"testerConnected":true,"appConnected":false},"messageId":0}
+ 
+detox[12260] DEBUG: [EXEC_CMD, #0] "C:\Users\Hasin\AppData\Local\Android\Sdk\emulator\emulator.EXE" -list-avds --verbose
+detox[12260] TRACE: [EXEC_SUCCESS, #0] Pixel_4_XL_API_28
+
+detox[12260] DEBUG: [EXEC_CMD, #1] "C:\Users\Hasin\AppData\Local\Android\Sdk\emulator\emulator.EXE" -version 
+detox[12260] TRACE: [EXEC_SUCCESS, #1] Android emulator version 30.6.5.0 (build_id 7324830) (CL:N/A)
+Copyright (C) 2006-2017 The Android Open Source Project and many others.
+This program is a derivative of the QEMU CPU emulator (www.qemu.org).
+
+  This software is licensed under the terms of the GNU General Public
+  License version 2, as published by the Free Software Foundation, and
+  may be copied, distributed, and modified under those terms.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+emulator: Android emulator version 30.6.5.0 (build_id 7324830) (CL:N/A)
+
+detox[12260] DEBUG: [EMU_BIN_VERSION_DETECT] Detected emulator binary version { major: 30, minor: 6, patch: 5, toString: [Function: toString] }
+detox[12260] DEBUG: [ALLOCATE_DEVICE] Trying to allocate a device based on "Pixel_4_XL_API_28"
+detox[12260] DEBUG: [EXEC_CMD, #2] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE"  devices
+detox[12260] DEBUG: [EXEC_SUCCESS, #2] List of devices attached
+emulator-5554	device
+
+
+detox[12260] TRACE: [TELNET_CONNECTING] port: 5554, host: localhost
+detox[12260] DEBUG: [DEVICE_LOOKUP] Found a matching & free device emulator-5554
+detox[12260] DEBUG: [ALLOCATE_DEVICE] Settled on emulator-5554
+detox[12260] DEBUG: [EXEC_CMD, #3] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "getprop dev.bootcomplete"
+detox[12260] TRACE: [EXEC_SUCCESS, #3] 1
+
+detox[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBootDevice({
+  coldBoot: false,
+  deviceId: 'emulator-5554',
+  type: 'Pixel_4_XL_API_28'
+})
+detox[12260] DEBUG: [EXEC_CMD, #4] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "getprop ro.build.version.sdk"
+detox[12260] TRACE: [EXEC_SUCCESS, #4] 28
+
+detox[12260] DEBUG: [EXEC_CMD, #5] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "settings put global animator_duration_scale 0"
+detox[12260] TRACE: [EXEC_SUCCESS, #5] 
+detox[12260] DEBUG: [EXEC_CMD, #6] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "settings put global window_animation_scale 0"
+detox[12260] TRACE: [EXEC_SUCCESS, #6] 
+detox[12260] DEBUG: [EXEC_CMD, #7] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "settings put global transition_animation_scale 0"
+detox[12260] TRACE: [EXEC_SUCCESS, #7] 
+detox[12260] DEBUG: [EXEC_CMD, #8] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "dumpsys power | grep \"^[ ]*m[UW].*=\""
+detox[12260] TRACE: [EXEC_SUCCESS, #8]   mWakefulness=Awake
+  mWakefulnessChanging=false
+  mWakeLockSummary=0x0
+  mUserActivitySummary=0x1
+  mWakeUpWhenPluggedOrUnpluggedConfig=false
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mDreamsBatteryLevelMinimumWhenPoweredConfig=-1
+  mDreamsBatteryLevelMinimumWhenNotPoweredConfig=15
+  mScreenBrightnessOverrideFromWindowManager=-1
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mUserInactiveOverrideFromWindowManager=false
+
+detox[12260] DEBUG: [EXEC_CMD, #9] "C:\Users\Hasin\AppData\Local\Android\Sdk\build-tools\30.0.3\aapt.EXE" dump badging "C:\Users\Hasin\source\repos\reactNative\AwesomeProject\android\app\build\outputs\apk\debug\app-debug.apk" | findstr /C:"package: name="
+detox[12260] TRACE: [EXEC_SUCCESS, #9] package: name='com.awesomeproject' versionCode='1' versionName='1.0' compileSdkVersion='29' compileSdkVersionCodename='10'
+
+detox[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeTerminateApp({ deviceId: 'emulator-5554', bundleId: 'com.awesomeproject' })
+detox[12260] DEBUG: [EXEC_CMD, #10] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "am force-stop com.awesomeproject"
+detox[12260] TRACE: [EXEC_SUCCESS, #10] 
+detox[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onTerminateApp({ deviceId: 'emulator-5554', bundleId: 'com.awesomeproject' })
+detox[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeUninstallApp({ deviceId: 'emulator-5554', bundleId: 'com.awesomeproject' })
+detox[12260] DEBUG: [EXEC_CMD, #11] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "pm list packages com.awesomeproject"
+detox[12260] TRACE: [EXEC_SUCCESS, #11] package:com.awesomeproject
+package:com.awesomeproject.test
+
+detox[12260] DEBUG: [EXEC_CMD, #12] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 uninstall com.awesomeproject
+detox[12260] TRACE: [EXEC_SUCCESS, #12] Success
+
+detox[12260] DEBUG: [EXEC_CMD, #13] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "pm list packages com.awesomeproject.test"
+detox[12260] TRACE: [EXEC_SUCCESS, #13] package:com.awesomeproject.test
+
+detox[12260] DEBUG: [EXEC_CMD, #14] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 uninstall com.awesomeproject.test
+detox[12260] TRACE: [EXEC_SUCCESS, #14] Success
+
+detox[12260] DEBUG: [EXEC_CMD, #15] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "rm -fr /data/local/tmp/detox"
+detox[12260] TRACE: [EXEC_SUCCESS, #15] 
+detox[12260] DEBUG: [EXEC_CMD, #16] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "mkdir -p /data/local/tmp/detox"
+detox[12260] TRACE: [EXEC_SUCCESS, #16] 
+detox[12260] DEBUG: [EXEC_CMD, #17] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 push "C:\Users\Hasin\source\repos\reactNative\AwesomeProject\android\app\build\outputs\apk\debug\app-debug.apk" "/data/local/tmp/detox/Application.apk"
+detox[12260] TRACE: [EXEC_SUCCESS, #17] C:\Users\Hasin\source\repos\reactNative\AwesomeProject\android\app\build\outputs\apk\debug\app-debug.apk: 1 file pushed, 0 skipped. 413.1 MB/s (40351763 bytes in 0.093s)
+
+detox[12260] DEBUG: [EXEC_CMD, #18] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "pm install -r -g -t /data/local/tmp/detox/Application.apk"
+detox[12260] TRACE: [EXEC_SUCCESS, #18] Success
+
+detox[12260] DEBUG: [EXEC_CMD, #19] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 push "C:\Users\Hasin\source\repos\reactNative\AwesomeProject\android\app\build\outputs\apk\androidTest\debug\app-debug-androidTest.apk" "/data/local/tmp/detox/Test.apk"
+detox[12260] TRACE: [EXEC_SUCCESS, #19] C:\Users\Hasin\source\repos\reactNative\AwesomeProject\android\app\build\outputs\apk\androidTest\debug\app-debug-androidTest.apk: 1 file pushed, 0 skipped. 35.1 MB/s (8221 bytes in 0.000s)
+
+detox[12260] DEBUG: [EXEC_CMD, #20] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "pm install -r -g -t /data/local/tmp/detox/Test.apk"
+detox[12260] TRACE: [EXEC_SUCCESS, #20] Success
+
+ROOT_DESCRIBE_BLOCK[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeStart({ name: 'ROOT_DESCRIBE_BLOCK' })
+Example[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeStart({ name: 'Example' })
+detox[12260] INFO:  [97mExample[39m is assigned to [94memulator-5554 (Pixel_4_XL_API_28)[39m
+detox[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeTerminateApp({ deviceId: 'emulator-5554', bundleId: 'com.awesomeproject' })
+detox[12260] DEBUG: [EXEC_CMD, #21] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "am force-stop com.awesomeproject"
+detox[12260] TRACE: [EXEC_SUCCESS, #21] 
+detox[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onTerminateApp({ deviceId: 'emulator-5554', bundleId: 'com.awesomeproject' })
+detox[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeLaunchApp({
+  deviceId: 'emulator-5554',
+  bundleId: 'com.awesomeproject',
+  launchArgs: {
+    detoxServer: 'ws://localhost:60034',
+    detoxSessionId: '4e9f7f86-7321-855f-668d-6855db0b07bd'
+  }
+})
+detox[12260] DEBUG: [EXEC_CMD, #22] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "date +\"%m-%d %T.000\""
+detox[12260] TRACE: [EXEC_SUCCESS, #22] 06-18 11:59:26.000
+
+detox[12260] DEBUG: [EXEC_CMD, #23] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 reverse tcp:60034 tcp:60034
+detox[12260] TRACE: [EXEC_SUCCESS, #23] 
+detox[12260] DEBUG: [EXEC_CMD, #24] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "pm list instrumentation"
+detox[12260] TRACE: [EXEC_SUCCESS, #24] instrumentation:com.awesomeproject.test/android.test.InstrumentationTestRunner (target=com.awesomeproject)
+instrumentation:org.chromium.webview_shell/.WebViewLayoutTestRunner (target=org.chromium.webview_shell)
+
+detox[12260] DEBUG: [SPAWN_CMD, #3272] C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE -s emulator-5554 shell am instrument -w -r -e detoxServer ws://localhost:60034 -e detoxSessionId 4e9f7f86-7321-855f-668d-6855db0b07bd -e debug false com.awesomeproject.test/android.test.InstrumentationTestRunner
+detox[12260] DEBUG: [EXEC_CMD, #25] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "ps | grep \"com\.awesomeproject$\""
+detox[12260] TRACE: [EXEC_SUCCESS, #25] u0_a89        6868  1761 3956296 124836 0                   0 R com.awesomeproject
+
+detox[6868] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onLaunchApp({
+  deviceId: 'emulator-5554',
+  bundleId: 'com.awesomeproject',
+  launchArgs: {
+    detoxServer: 'ws://localhost:60034',
+    detoxSessionId: '4e9f7f86-7321-855f-668d-6855db0b07bd'
+  },
+  pid: 6868
+})
+detox[12260] TRACE: [ARTIFACT_START] starting ADBLogcatRecording
+detox[12260] DEBUG: [SPAWN_CMD, #9012] C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE -s emulator-5554 shell "logcat -T \"06-18 11:59:26.000\" --pid=6868 -f /sdcard/115925649_0.log"
+detox[12260] DEBUG: [EXEC_CMD, #26] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell du /sdcard/115925649_0.log
+detox[12260] TRACE: [EXEC_SUCCESS, #26] 4	/sdcard/115925649_0.log
+
+detox[12260] TRACE: [SPAWN_STDOUT, #3272] INSTRUMENTATION_RESULT: stream=
+Test results for InstrumentationTestRunner=
+Time: 0.0
+
+OK (0 tests)
+
+
+INSTRUMENTATION_CODE: -1
+
+detox[12260] DEBUG: [SPAWN_END, #3272] C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE -s emulator-5554 shell am instrument -w -r -e detoxServer ws://localhost:60034 -e detoxSessionId 4e9f7f86-7321-855f-668d-6855db0b07bd -e debug false com.awesomeproject.test/android.test.InstrumentationTestRunner finished with code = 0
+detox[12260] DEBUG: [EXEC_CMD, #27] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 reverse --remove tcp:60034
+detox[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onHookFailure({
+  error: DetoxRuntimeError: Failed to run application on the device
+  
+  HINT: Most likely, your tests have timed out and called detox.cleanup() while it was waiting for "ready" message (over WebSocket) from the instrumentation process.
+      at createErrorWithUserStack (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\detox\src\utils\errorUtils.js:33:27)
+      at Device.launchApp (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\detox\src\utils\cutStackTraces.js:9:34)
+      at _callee$ (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\e2e\firstTest.e2e.js:3:18)
+      at tryCatch (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\regenerator-runtime\runtime.js:63:40)
+      at Generator.invoke [as _invoke] (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\regenerator-runtime\runtime.js:293:22)
+      at Generator.next (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\regenerator-runtime\runtime.js:118:21)
+      at tryCatch (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\regenerator-runtime\runtime.js:63:40)
+      at invoke (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\regenerator-runtime\runtime.js:154:20)
+      at C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\regenerator-runtime\runtime.js:189:11
+      at new Promise (<anonymous>)
+      at callInvokeWithMethodAndArg (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\regenerator-runtime\runtime.js:188:16)
+      at AsyncIterator.enqueue (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\regenerator-runtime\runtime.js:211:13)
+      at AsyncIterator.next (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\regenerator-runtime\runtime.js:118:21)
+      at Object.<anonymous>.exports.async (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\regenerator-runtime\runtime.js:238:14)
+      at _callee (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\e2e\firstTest.e2e.js:2:13)
+      at Promise.then.completed (C:\Users\Hasin\source\repos\reactNative\AwesomeProject\node_modules\jest-circus\build\utils.js:316:28),
+  hook: 'beforeAll'
+})
+detox[12260] INFO:  [1m[37mExample: [39m[22m[90mshould have hello world[39m
+detox[12260] INFO:  [1m[37mExample: [39m[22m[90mshould have hello world[39m[90m [[31mFAIL[90m][39m
+Example[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeFinish({ name: 'Example' })
+ROOT_DESCRIBE_BLOCK[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeFinish({ name: 'ROOT_DESCRIBE_BLOCK' })
+detox[12260] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeCleanup()
+detox[12260] TRACE: [ARTIFACT_SAVE] saving ADBLogcatRecording to: artifacts\android.emu.debug.2021-06-18 10-59-24Z\emulator-5554 2021-06-18 10-59-46Z.startup.log
+detox[12260] TRACE: [ARTIFACT_STOP] stopping ADBLogcatRecording
+detox[12260] DEBUG: [EXEC_CMD, #28] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "date +\"%m-%d %T.000\""
+detox[12260] TRACE: [EXEC_SUCCESS, #27] 
+detox[12260] TRACE: [EXEC_SUCCESS, #28] 06-18 11:59:45.000
+
+detox[12260] TRACE: [SPAWN_KILL, #9012] sending SIGINT to: C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE -s emulator-5554 shell logcat -T "06-18 11:59:26.000" --pid=6868 -f /sdcard/115925649_0.log
+detox[12260] DEBUG: [SPAWN_END, #9012] C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE -s emulator-5554 shell "logcat -T \"06-18 11:59:26.000\" --pid=6868 -f /sdcard/115925649_0.log" terminated with SIGINT
+detox[12260] DEBUG: [EXEC_CMD, #29] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 pull "/sdcard/115925649_0.log" "artifacts\android.emu.debug.2021-06-18 10-59-24Z\emulator-5554 2021-06-18 10-59-46Z.startup.log"
+detox[12260] TRACE: [EXEC_SUCCESS, #29] /sdcard/115925649_0.log: 1 file pulled, 0 skipped. 13.9 MB/s (34259 bytes in 0.002s)
+
+detox[12260] DEBUG: [EXEC_CMD, #30] "C:\Users\Hasin\AppData\Local\Android\Sdk\platform-tools\adb.EXE" -s emulator-5554 shell "rm  \"/sdcard/115925649_0.log\""
+detox[12260] TRACE: [EXEC_SUCCESS, #30] 
+detox[12260] TRACE: [ARTIFACT_START] starting FileArtifact
+detox[12260] TRACE: [ARTIFACT_STOP] stopping FileArtifact
+detox[12260] TRACE: [ARTIFACT_SAVE] saving FileArtifact to: artifacts\android.emu.debug.2021-06-18 10-59-24Z\detox_pid_12260.json.log { append: true }
+detox[12260] TRACE: [ARTIFACT_START] starting FileArtifact
+detox[12260] TRACE: [ARTIFACT_STOP] stopping FileArtifact
+detox[12260] TRACE: [ARTIFACT_SAVE] saving FileArtifact to: artifacts\android.emu.debug.2021-06-18 10-59-24Z\detox_pid_12260.log { append: true }
+detox[12260] DEBUG: [MOVE_FILE] moving "C:\Users\Hasin\AppData\Local\Temp\2dd75d94-3faf-464a-b249-257131a1c520.detox.log" to artifacts\android.emu.debug.2021-06-18 10-59-24Z\detox_pid_12260.json.log
+detox[12260] DEBUG: [MOVE_FILE] moving "C:\Users\Hasin\AppData\Local\Temp\d2a6a736-9d89-4dff-a13b-138d834d9ba3.detox.log" to artifacts\android.emu.debug.2021-06-18 10-59-24Z\detox_pid_12260.log
+detox[12260] ERROR: [APP_UNREACHABLE] Failed to reach the app over the web socket connection.
+
+HINT: 
+
+1. If you don't see your app running on the device, there's a chance
+   that your app has crashed prematurely. To get the crash details,
+   you can run Detox tests with "--record-logs all" CLI option
+   and then inspect the device logs in the artifacts folder.
+
+2. If your app IS running on the device, yet you see this message:
+a) The native part of Detox failed to connect to the Detox server over
+   web sockets. If this is the case, the device's logs should contain
+   messages about those failed connection attempts.
+
+b) The app is running without Detox native code injected.
+   Make sure you don't launch it manually. If you don't, examine the logs
+   from the device. If you see a crash related to Detox native code, you
+   are welcome to report it on our GitHub tracker.
+   In case if you are debugging your native code integration with Detox,
+   these guides may prove helpful:
+
+   * https://github.com/wix/Detox/blob/master/docs/Guide.DebuggingInAndroidStudio.md
+   * https://github.com/wix/Detox/blob/master/docs/Guide.DebuggingInXcode.md
+
+
+detox[12260] DEBUG: [WSS_CLOSE] Detox server has been closed gracefully
+detox[12260] TRACE: [SESSION_TORN] tester exited session 4e9f7f86-7321-855f-668d-6855db0b07bd
